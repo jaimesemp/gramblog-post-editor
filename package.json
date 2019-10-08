@@ -1,0 +1,20 @@
+{
+  "name": "post-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start2": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "axios": "~0.19.0"
+  },
+  "author": "Jaime Sempere",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
